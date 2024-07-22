@@ -11,9 +11,9 @@ const FOOTERNAME = '> U M A R I -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '923308363433' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=HYMhRQyb#tt-907z3amQtOn5jHuFsG71FQ-gQzhhy755gIu7th4E' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=KFF10CpT#UgyEC7cSCfOZj2hZXFqixz2c2GaaKM3jt9L2YSnOIlE' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "923308363433,94787820101" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "923308363433,923308363433" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'UMARI' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
