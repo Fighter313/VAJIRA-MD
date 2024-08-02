@@ -14,7 +14,7 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=qNMDQLAB#KB-y3-Q1IytMUqIpMGX9RAltTPvpbnBjqXjXYENzIZw' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "923308363433,923308363433" : process.env.MODERATORS ,    
-MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
+MAX_SIZE: process.env.MAX_SIZE === undefined ? '10536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'UMARI' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
